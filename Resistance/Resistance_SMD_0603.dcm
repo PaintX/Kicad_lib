@@ -1,8 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP R
-D Resistor
-K R DEV
+$CMP 10K
+F 311-0.0GRCT-ND
 $ENDCMP
 #
 #End Doc Library
