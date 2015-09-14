@@ -39,4 +39,9 @@
   (pad 32 thru_hole circle (at 14.859 17.653) (size 1.5 1.5) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   (pad 34 thru_hole circle (at 14.859 25.527) (size 1.5 1.5) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
   (pad 35 thru_hole circle (at 14.859 28.067) (size 1.5 1.5) (drill 0.6) (layers *.Cu *.Mask F.SilkS))
+  (model Arduino/Arduino.pretty/3dPackage/DIP-24__600_ELL.wrl
+    (at (xyz 0.44 -0.8 0))
+    (scale (xyz 1 0.85 1))
+    (rotate (xyz 0 0 90))
+  )
 )
