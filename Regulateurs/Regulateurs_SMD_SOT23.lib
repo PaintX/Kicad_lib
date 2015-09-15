@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2015 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MIC5205-3.3YM5
+#
+DEF MIC5205-3.3YM5 U 0 40 N Y 1 L N
+F0 "U" -250 200 50 H V L CNN
+F1 "MIC5205-3.3YM5" 0 200 50 H V L CNN
+F2 "SOT23-5" 0 0 50 H I L CNN
+DRAW
+P 2 0 0 10 -250 200 250 200 N
+P 2 0 0 10 250 200 250 100 N
+P 2 0 0 10 250 100 250 -100 N
+P 2 0 0 10 250 -100 250 -200 N
+P 2 0 0 10 250 -200 -250 -200 N
+P 2 0 0 10 -250 -200 -250 -100 N
+P 2 0 0 10 -250 -100 -250 0 N
+P 2 0 0 10 -250 0 -250 100 N
+P 2 0 0 10 -250 100 -250 200 N
+P 2 0 0 6 -300 100 -250 100 N
+P 2 0 0 6 -300 0 -250 0 N
+P 2 0 0 6 -300 -100 -250 -100 N
+P 2 0 0 6 250 -100 300 -100 N
+P 2 0 0 6 250 100 300 100 N
+X VIN 1 -400 100 100 R 40 40 0 0 B 
+X GND 2 -400 -100 100 R 40 40 0 0 B 
+X EN 3 -400 0 100 R 40 40 0 0 B 
+X BYP 4 400 -100 100 L 40 40 0 0 B 
+X VOUT 5 400 100 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
