@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# UA78M05IDCY
+#
+DEF UA78M05IDCY U 0 40 Y Y 1 L N
+F0 "U" -180 284 50 H V L BNN
+F1 "UA78M05IDCY" -227 -621 50 H V L BNN
+F2 "SOT230P700X180-4N" 0 0 50 H I L BNN
+F3 "0.34 USD" 0 0 50 H I L BNN
+F4 "Texas Instruments" 0 0 50 H I L BNN
+F5 "SOT-223-4 Texas Instruments" 0 0 50 H I L BNN
+F6 "Linear voltage regulator [Texas Instruments] UA78M05IDCY Linear voltage regulator" 0 0 50 H I L BNN
+F7 "Good" 0 0 50 H I L BNN
+F8 "UA78M05IDCY" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -600 200 -600 -500 N
+P 2 0 0 16 -600 -500 600 -500 N
+P 2 0 0 16 600 -500 600 200 N
+P 2 0 0 16 600 200 -600 200 N
+X INPUT 1 -800 0 200 R 40 40 0 0 I 
+X OUTPUT 3 -800 -300 200 R 40 40 0 0 I 
+X COMMON_2 2 800 -200 200 L 40 40 0 0 O 
+X COMMON 4 800 -100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

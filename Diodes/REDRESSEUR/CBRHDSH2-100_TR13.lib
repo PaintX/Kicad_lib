@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CBRHDSH2-100_TR13
+#
+DEF CBRHDSH2-100_TR13 BR 0 30 Y Y 1 F N
+F0 "BR" 850 300 50 H V L CNN
+F1 "CBRHDSH2-100_TR13" 850 200 50 H V L CNN
+F2 "CBRHDSH2-100_TR13" 850 100 50 H I L CNN
+F3 "" 850 0 50 H I L CNN
+F4 "Bridge Rectifiers 2A 100V Schottky Bridge Rectifier" 850 -100 50 H I L CNN "Description"
+F5 "2.9" 850 -200 50 H I L CNN "Height"
+F6 "Central Semiconductor" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CBRHDSH2-100 TR13" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "610-CBRHDSH2-100TR13" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=610-CBRHDSH2-100TR13" 850 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X - 1 0 0 200 R 50 50 0 0 B
+X ~_1 2 0 -100 200 R 50 50 0 0 B
+X + 3 1000 -100 200 L 50 50 0 0 B
+X ~_2 4 1000 0 200 L 50 50 0 0 B
+ENDDRAW
+ENDDEF
+#
+#End Library
