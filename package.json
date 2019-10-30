@@ -1,6 +1,8 @@
 {
     "categories": {
-        "Resistances" : {},
+        "Resistances" : {
+            "SMD" : "0603"
+        },
         "Condensateurs" : {}
     }
 }
