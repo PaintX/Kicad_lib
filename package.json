@@ -1,5 +1,6 @@
 {
-    "categories": [{
-        "resistances" : []
-    }]
+    "categories": {
+        "Resistances" : {},
+        "Condensateurs" : {}
+    }
 }
